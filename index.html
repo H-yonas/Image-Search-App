@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Image Search App</h1>
+        <form action="">
+            <input type="text" id="search-input" placeholder="Search for images">
+            <button id="search-button">Search</button>
+            <select id="per-page-dropdown">
+                <option value="10">10 results per page</option>
+                <option value="20">20 results per page</option>
+                <option value="30">30 results per page</option>
+            </select>
+            <button id="clear-results-button">Clear Results</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="search-results">
+            <!-- Images will be added dynamically here -->
+        </section>
+
+        <button id="show-more-button">Show more</button>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
